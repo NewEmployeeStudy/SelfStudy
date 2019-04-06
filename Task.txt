@@ -166,7 +166,7 @@
 　5.5 次のコードに追加し、入力された数値を16桁の２進数で表示するプログラムを完成させよ
 	　BufferedReader br = new BufferedReader(
 							new InputStreamReader( System.in ) );
-	　int value = Inteher.parseInt( br.readLine() );
+	　int value = Integer.parseInt( br.readLine() );
 	　int binary[] = new int[16];
 	　// 配列 binary に0 or 1を代入する
 	　for( int i = 0; i < 16 ; i++ )
