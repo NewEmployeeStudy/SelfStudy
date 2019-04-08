@@ -29,6 +29,7 @@ public class Task4_11 {
 
 	public static void answer2( int count ) {
 
+		System.out.println();
 		System.out.println( "別解" );
 		for( int i = 0 ; i < count ; i++ )
 			System.out.print( i % 10 );

@@ -25,6 +25,7 @@ public class Task4_10 {
 
 	public static void answer2( int count ) {
 
+		System.out.println();
 		System.out.println( "別解" );
 		while( count > 0 ) {
 			System.out.print( "*" );
