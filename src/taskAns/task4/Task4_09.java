@@ -12,8 +12,11 @@ public class Task4_09 {
 
 		int max_value = 0, min_value = 0;
 
+		System.out.println( "解答" );
 		answer1( br, max_value, min_value );
+		System.out.println( "別解１" );
 		answer2( br, max_value, min_value );
+		System.out.println( "別解２" );
 		max_value = Integer.parseInt( br.readLine() );
 		min_value = max_value;
 		answer3( br, max_value, min_value );
@@ -34,7 +37,6 @@ public class Task4_09 {
 					min_value = value;
 			}
 		}
-		System.out.println( "解答" );
 		System.out.println( "最大値=" + max_value + " 最小値=" + min_value );
 	}
 
@@ -49,7 +51,6 @@ public class Task4_09 {
 				min_value = value;
 		}
 
-		System.out.println( "別解１" );
 		System.out.println( "最大値=" + max_value + " 最小値=" + min_value );
 	}
 
@@ -64,7 +65,6 @@ public class Task4_09 {
 				min_value = value;
 		}
 
-		System.out.println( "別解２" );
 		System.out.println( "最大値=" + max_value + " 最小値=" + min_value );
 	}
 }
