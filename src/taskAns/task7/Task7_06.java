@@ -103,17 +103,17 @@ class CoinCase2 {
 		int AmountOfCoin = 0;
 		switch( kindOfCoin ) {
 			case 500:
-				AmountOfCoin = 500 * numOf500;
+				AmountOfCoin = kindOfCoin * numOf500;
 			case 100:
-				AmountOfCoin = 100 * numOf100;
+				AmountOfCoin = kindOfCoin * numOf100;
 			case 50:
-				AmountOfCoin = 50 * numOf50;
+				AmountOfCoin = kindOfCoin * numOf50;
 			case 10:
-				AmountOfCoin = 10 * numOf10;
+				AmountOfCoin = kindOfCoin * numOf10;
 			case 5:
-				AmountOfCoin = 5 * numOf5;
+				AmountOfCoin = kindOfCoin * numOf5;
 			case 1:
-				AmountOfCoin = 1 * numOf1;
+				AmountOfCoin = kindOfCoin * numOf1;
 			default:
 				break;
 		}

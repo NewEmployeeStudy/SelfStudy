@@ -12,7 +12,7 @@ public class Task7_05 {
 		CoinCase cc = new CoinCase();
 
 		for( int i = 0 ; i < 10 ; i++ ) {
-			System.out.println( i + "回目" );
+			System.out.println( i + 1 + "回目" );
 			System.out.print( "硬貨の種類は？" );
 			String strKindOfCoin = br.readLine();
 			System.out.print( "その枚数は？" );
